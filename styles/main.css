@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+:root {
+  font-size: 18px; }
+
+.dropdown {
+  font-family: Epilogue; }
+
+/* Dropdown Button */
+.dropdown__btn {
+  color: dimgray;
+  padding: 0 19px;
+  font-size: .85rem;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center; }
+
+.dropdown__arrow {
+  background-image: url(../assets/images/icon-arrow-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 6px;
+  margin-left: 6px; }
+
+.dropdown__btn:hover {
+  color: #141414; }
+  .dropdown__btn:hover .dropdown__arrow {
+    background-image: url(../assets/images/icon-arrow-up.svg); }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: White;
+  font-size: .9rem;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+  padding: 20px; }
+
+._slim {
+  min-width: 90px; }
+
+/* Links inside the dropdown */
+.dropdown__content a {
+  color: dimgray;
+  padding: 10px 0;
+  text-decoration: none;
+  display: block; }
+
+.dropdown__content img {
+  margin-right: 10px; }
+
+/* Change color of dropdown links on hover */
+.dropdown__content a:hover {
+  font-weight: 500;
+  color: #141414; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown__content {
+  display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown__btn {
+  cursor: pointer; }
+
+.header {
+  display: flex;
+  font-family: Epilogue;
+  margin-top: 16px; }
+
+.header__logo {
+  background-image: url(../assets/images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 83px;
+  margin-right: 45px; }
+
+.header__link {
+  text-decoration: none;
+  padding: 0 19px;
+  color: dimgray;
+  font-size: .85rem; }
+
+.header__link:hover {
+  color: #141414;
+  cursor: pointer; }
+
+.header__buttons {
+  margin-left: auto; }
+
+.header__button {
+  font-size: .85rem;
+  color: dimgray;
+  padding: 12px 22px;
+  border-radius: 15px;
+  margin-left: 14px; }
+
+._login {
+  border: none;
+  background-color: #fafafa; }
+
+._login:hover {
+  color: #141414;
+  cursor: pointer; }
+
+._register {
+  border: 2px solid dimgray;
+  background-color: #fafafa;
+  border-radius: 15px; }
+
+._register:hover {
+  color: #141414;
+  border-color: #141414;
+  cursor: pointer; }
+
+.page {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px; }
+
+.wrap {
+  max-width: 1300px;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

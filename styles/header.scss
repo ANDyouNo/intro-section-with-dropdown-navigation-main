@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  font-family: Epilogue;
+  margin-top: 16px;
+}
+.header__logo {
+  background-image: url(../assets/images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 83px;
+  margin-right: 45px;
+}
+.header__links {
+  
+}
+.header__link {
+  text-decoration: none;
+  padding: 0 19px;
+  color: $Medium-Gray;
+  font-size: .85rem;
+}
+.header__link:hover {
+  color: $Almost-Black;
+  cursor: pointer;
+}
+.header__buttons {
+  margin-left: auto;
+}
+.header__button {
+  font-size: .85rem;
+  color: $Medium-Gray;
+  padding: 12px 22px;
+  border-radius: 15px;
+  margin-left: 14px;
+}
+._login {
+  border: none;
+  background-color: $Almost-White;
+}
+._login:hover {
+  color: $Almost-Black;
+  cursor: pointer;
+}
+._register {
+  border: 2px solid $Medium-Gray;
+  background-color: $Almost-White;
+  border-radius: 15px;
+}
+._register:hover {
+  color: $Almost-Black;
+  border-color: $Almost-Black;
+  cursor: pointer;
+}

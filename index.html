@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
-  <link rel="stylesheet" href="/styles/main.css">
-  <script src="./js/app.js" defer></script>
-</head>
-<body>
-  <div class="page">
-    <div class="wrap">
-      <header class="header">
-        <div class="header__logo"></div>
-        <div class="header__links">
-
-        </div>
-        <div class="header__buttons">
-          <button class="header__button _login">Login</button>
-          <button class="header__button _register">Register</button>
-        </div>
-      </header>
-    </div>
-  </div>
-
-  <div class="page">
-    <div class="wrap">
-      <div class="info">
-        <div class="info__container">
-          <div class="info__content">
-            <h1 class="info__heading"></h1>
-            <p class="info__text"></p>
-            <button class="info__button"></button>
-            <div class="sponsors">
-              <div class="sponsors__logo _databiz"></div>
-              <div class="sponsors__logo _audip"></div>
-              <div class="sponsors__logo _meet"></div>
-              <div class="sponsors__logo _maker"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="wrap">
+        <header class="header">
+          <div class="header__logo"></div>
+          <div class="header__links">
+            <div class="dropdown">
+              <div class="dropdown__btn">
+                <p>Features</p>
+                <div class="dropdown__arrow"></div>
+              </div>
+              <div class="dropdown__content">
+                <a href="#">
+                  <img src="./assets/images/icon-todo.svg" alt="" />
+                  Todo List
+                </a>
+                <a href="#">
+                  <img src="./assets/images/icon-calendar.svg" alt="" />
+                  Caledar
+                </a>
+                <a href="#">
+                  <img src="./assets/images/icon-reminders.svg" alt="" />
+                  Reminders
+                </a>
+                <a href="#">
+                  <img src="./assets/images/icon-planning.svg" alt="" />
+                  Planning
+                </a>
+              </div>
             </div>
+
+            <div class="dropdown">
+              <div class="dropdown__btn">
+                <p>Company</p>
+                <div class="dropdown__arrow"></div>
+              </div>
+              <div class="dropdown__content _slim">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+
+            <a href="#" class="header__link">Careers</a>
+            <a href="#" class="header__link">About</a>
           </div>
-          <div class="info__illustration"></div>
+          <div class="header__buttons">
+            <button class="header__button _login">Login</button>
+            <button class="header__button _register">Register</button>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="wrap">
+        <div class="info">
+          <div class="info__container">
+            <div class="info__content">
+              <h1 class="info__heading"></h1>
+              <p class="info__text"></p>
+              <button class="info__button"></button>
+              <div class="sponsors">
+                <div class="sponsors__logo _databiz"></div>
+                <div class="sponsors__logo _audip"></div>
+                <div class="sponsors__logo _meet"></div>
+                <div class="sponsors__logo _maker"></div>
+              </div>
+            </div>
+            <div class="info__illustration"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-
-</body>
+    Features Company Careers About Login Register Make remote work Get your team
+    in sync, no matter your location. Streamline processes, create team rituals,
+    and watch productivity soar. Learn more
+  </body>
 </html>

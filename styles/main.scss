@@ -1,5 +1,19 @@
 @import "variables";
 @import "typography";
-
+@import "dropdown";
+@import "header";
 
 @import "adaptive";
+
+.page {
+  background-color: $Almost-White;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.wrap {
+  max-width: 1300px;
+  width: 100%;
+  
+}
