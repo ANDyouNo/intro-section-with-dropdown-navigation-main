@@ -2,18 +2,34 @@
 @import "typography";
 @import "dropdown";
 @import "header";
+@import "burger-menu";
+@import "menu";
 
 @import "adaptive";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .page {
   background-color: $Almost-White;
   display: flex;
   justify-content: center;
-  padding: 0 30px;
+  padding: 6px 30px 0 30px;
+}
+@media screen and (max-width: 425px) {
+  .page {
+    padding: 6px 16px 0 16px;
+  }
 }
 
 .wrap {
-  max-width: 1300px;
+  max-width: 1360px;
   width: 100%;
-  
+}
+
+.none {
+  display: none;
 }

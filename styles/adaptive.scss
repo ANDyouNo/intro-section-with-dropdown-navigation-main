@@ -1,0 +1,25 @@
+@media screen and (max-width: 866px) {
+  .header__links {
+    display: none;
+  }
+  .header__buttons {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  a#menu span {
+    width: 70%;
+    height: 2px;
+  }
+  a#menu span:nth-child(1) {
+    transform: translateY(-8px);
+  }
+  
+  a#menu span:nth-child(2) {
+    transform: translateY(8px);
+  }
+}
